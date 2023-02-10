@@ -1,0 +1,343 @@
+@font-face {
+    font-family: "digimonFonts";
+    src: url("../fonts/DigimonBasic.ttf");
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: digimonFonts;
+}
+
+.menu{
+    list-style: none;
+    padding: 0;
+    background-color: #000;
+    width: 90%;
+    max-width: 1000px;
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+    z-index: 1000000;
+}
+
+.menu li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 20px;
+    display: block;
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li:hover{
+    background-color: #2da;
+}
+.botonInicio{
+    transition: all 0.9s;
+}
+
+.botonInicio:hover{
+    transform: scale(1.5);
+    color: coral;
+}
+
+.botonPersonajes{
+    transition: all 0.9s;
+}
+
+.botonPersonajes:hover{
+    transform: scale(1.3);
+    color: coral;
+}
+
+.fondoDigimon{
+    position: absolute;
+    width: 98.9vw;
+    height: 100vh;
+    top: 0;
+    z-index: -1;
+}
+
+.containerJuegosGba{
+    position: absolute;
+    width: 80vw;
+    height: 10vh;
+    margin: 0 auto;
+    top: 20vh;
+    left: 10vw;
+    text-align: center;
+    background-color: #2da;
+    border-radius: 30px;
+    box-shadow: 2px 5px 5px 7px #000;
+}
+
+.titleJuegosGba{
+    font-family: "digimonFonts";
+    font-size: 5vh;
+    padding-top: 2.5vh;
+}
+
+.contenidoJuegosGba{
+    position: absolute;
+    display: flex;
+    width: 65vw;
+    height: 50vh;
+    margin: 0 auto;
+    top: 38vh;
+    left: 15vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 3vh;
+    padding-bottom: 0vh;
+    background-color: #2dc;
+    border-radius: 30px;
+    text-align: center;
+    overflow: auto;
+    box-shadow: 7px 7px 8px 7px #000;
+    overflow: auto;
+}
+
+.juegosGba1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+    height: 47vh;
+}
+
+.juegosGba1 img{
+    margin-right: 5vw;
+    margin-top: 3vh;
+}
+
+.digimonSpirit{
+    width: 15vw;
+    height: 35vh;
+    box-shadow: 2px 2px 10px 7px #555;
+}
+
+.digimonRacing{
+    width: 15vw;
+    height: 35vh;
+    box-shadow: 2px 2px 10px 7px #555;
+}
+
+.digimonBattleSpirit2{
+    width: 15vw;
+    height: 35vh;
+    box-shadow: 2px 2px 10px 7px #555;
+}
+
+@media screen and (max-width: 1100px){
+    .juegosGba1 img{
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .juegosGba1 img{
+        width: 50vw;
+        height: 20vh;
+    }
+}
+
+.containerTitlePlay1{
+    position: absolute;
+    width: 80vw;
+    height: 10vh;
+    margin: 0 auto;
+    top: 100vh;
+    left: 10vw;
+    text-align: center;
+    background-color: #2da;
+    border-radius: 30px;
+    box-shadow: 2px 5px 5px 7px #000;
+}
+
+.fondoDigimon2{
+    position: absolute;
+    width: 98.9vw;
+    height: 100vh;
+    top: 100vh;
+    z-index: -1;
+}
+
+.titlePlay1{
+    font-family: "digimonFonts";
+    font-size: 5vh;
+    padding-top: 2.5vh;
+}
+
+.containerJuegosPlay1{
+    position: absolute;
+    display: flex;
+    width: 65vw;
+    height: 60vh;
+    margin: 0 auto;
+    top: 120vh;
+    left: 15vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 3vh;
+    padding-bottom: 0vh;
+    background-color: #2dc;
+    border-radius: 30px;
+    text-align: center;
+    overflow: auto;
+    box-shadow: 7px 7px 8px 7px #000;
+    overflow: auto;
+}
+
+.juegosPlay1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 65vw;
+    height: 47vh;
+}
+
+.juegosPlay1 img{
+    margin-right: 5vw;
+    margin-top: 6vh;
+    width: 15vw;
+    height: 35vh;
+    box-shadow: 2px 2px 10px 7px #555;
+}
+
+@media screen and (max-width: 1100px){
+    .juegosPlay1 img{
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 520px){
+    .juegosPlay1 img{
+        width: 50vw;
+        height: 20vh;
+    }
+}
+
+.containerTitlePlay2{
+    position: absolute;
+    width: 80vw;
+    height: 10vh;
+    margin: 0 auto;
+    top: 195vh;
+    left: 10vw;
+    text-align: center;
+    background-color: #2da;
+    border-radius: 30px;
+    box-shadow: 2px 5px 5px 7px #000;
+}
+
+.titlePlay2{
+    font-family: "digimonFonts";
+    font-size: 5vh;
+    padding-top: 2.5vh;
+}
+
+.fondoDigimon3{
+    position: absolute;
+    width: 98.9vw;
+    height: 100vh;
+    top: 200vh;
+    z-index: -1;
+}
+
+.containerJuegosPlay2{
+    position: absolute;
+    display: flex;
+    width: 65vw;
+    height: 50vh;
+    margin: 0 auto;
+    top: 210vh;
+    left: 15vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 3vh;
+    padding-bottom: 0vh;
+    background-color: #2dc;
+    border-radius: 30px;
+    text-align: center;
+    overflow: auto;
+    box-shadow: 7px 7px 8px 7px #000;
+    overflow: auto;
+}
+
+.juegosPlay2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 65vw;
+    height: 47vh;
+}
+
+.juegosPlay2 img{
+    margin-right: 5vw;
+    margin-top: 6vh;
+    width: 15vw;
+    height: 35vh;
+    box-shadow: 2px 2px 10px 7px #555;
+}
+
+.containerTitleXboxGB{
+    position: absolute;
+    width: 80vw;
+    height: 10vh;
+    margin: 0 auto;
+    top: 275vh;
+    left: 10vw;
+    text-align: center;
+    background-color: #2da;
+    border-radius: 30px;
+    box-shadow: 2px 5px 5px 7px #000;
+}
+
+.titleXboxGB{
+    font-family: "digimonFonts";
+    font-size: 5vh;
+    padding-top: 2.5vh;
+}
+
+.fondoDigimon4{
+    position: absolute;
+    width: 98.9vw;
+    height: 100vh;
+    top: 300vh;
+    z-index: -1;
+}
+
+.containerJuegosXboxGB{
+    position: absolute;
+    display: flex;
+    width: 65vw;
+    height: 50vh;
+    margin: 0 auto;
+    top: 290vh;
+    left: 15vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 3vh;
+    padding-bottom: 0vh;
+    background-color: #2dc;
+    border-radius: 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    overflow: auto;
+    box-shadow: 7px 7px 8px 7px #000;
+    overflow: auto;
+}
+
+.juegosXboxGB img{
+    margin-right: 8vw;
+    margin-top: 6vh;
+    width: 15vw;
+    height: 35vh;
+    box-shadow: 2px 2px 10px 7px #555;
+}
